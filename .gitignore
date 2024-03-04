@@ -1,25 +1,28 @@
 # Virtual environment
 venv/
-
-# Python bytecode
+env/
 *.pyc
-__pycache__/
 
 # Django generated files
+__pycache__/
 *.sqlite3
-*.pyc
-*.pyo
-*.pyc
-__pycache__
-*.pyc
-*.pyo
 
 # Logs and databases
 *.log
-*.sqlite3
 
 # Static files
-staticfiles/
+/staticfiles/
 
 # Media files
-media/
+/media/
+
+# Local configuration
+*.bak
+*.swp
+
+# Temporary files
+*.tmp
+*.~
+
+# Ignore .history directory
+.history/
